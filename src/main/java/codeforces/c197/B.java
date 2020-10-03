@@ -132,7 +132,7 @@ class Fraction {
     private String sign() {
         // both can't be true
         if (numerator < 0 || denumerator < 0) {
-            return "-";
+            return "-";//check this again, can be improved
         }
         return "";
     }
